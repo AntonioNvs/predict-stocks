@@ -1,0 +1,11 @@
+,dy,p_l,p_vp,p_ebita,p_ebit,p_sr,p_ativo,p_capitlgiro,p_ativocirculante,ev_ebitda,ev_ebit,lpa,vpa,peg_Ratio,dividaliquida_patrimonioliquido,dividaliquida_ebitda,dividaliquida_ebit,patrimonio_ativo,passivo_ativo,liquidezcorrente,margembruta,margemebitda,margemebit,margemliquida,roe,roa,roic,giro_ativos,receitas_cagr5,lucros_cagr5
+2014,0.16,8.76,0.56,inf,-95.61,inf,0.55,1.01,-1.23,inf,-0.62,4.57,71.04,0.2,-0.56,inf,94.99,0.98,0.02,623.89,inf,inf,inf,inf,6.43,6.31,-3.94,0.0,inf,2.95
+2015,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,6.02,77.01,inf,-0.59,inf,101.9,0.97,0.03,39.13,inf,inf,inf,inf,7.82,7.58,-4.52,0.0,inf,12.36
+2016,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,6.65,83.59,inf,-0.62,inf,72.36,0.97,0.03,43.45,inf,inf,inf,inf,7.95,7.72,-4.94,0.0,inf,10.37
+2017,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,5.12,88.66,inf,-0.64,inf,-7.41,0.98,0.02,125.86,100.0,inf,91.96,61.16,5.77,5.65,5.77,0.09,inf,9.18
+2018,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,4.46,93.08,inf,0.0,inf,0.0,1.0,0.0,15.54,100.0,inf,91.21,80.62,4.79,4.78,4.79,0.06,inf,7.0
+2019,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,3.28,96.33,inf,-0.01,inf,-0.17,1.0,0.0,10.34,100.0,inf,92.07,59.52,3.41,3.4,3.41,0.06,inf,-6.38
+2020,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,1.44,97.75,inf,-0.34,inf,-14.58,1.0,0.0,595.64,100.0,inf,88.45,55.08,1.47,1.47,1.47,0.03,inf,-24.9
+2021,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,2.77,100.52,inf,inf,inf,inf,1.0,0.0,inf,100.0,inf,89.57,61.47,2.75,2.75,inf,0.04,inf,-16.07
+2022,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,inf,4.39,62.74,inf,inf,inf,inf,0.98,0.02,inf,100.0,inf,93.54,47.68,6.99,6.87,inf,0.14,1.92,-3.03
+2023,inf,0.0,0.0,inf,0.0,0.0,0.0,0.0,0.0,inf,0.47,4.39,62.74,0.0,inf,inf,inf,0.98,0.02,inf,100.0,inf,93.54,47.68,6.99,6.87,inf,0.14,1.92,-3.03

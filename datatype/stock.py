@@ -1,0 +1,38 @@
+import math
+from dataclasses import dataclass, field
+
+@dataclass()
+class StockHistoryDetail:
+    dy: float = field(default = math.inf)
+    p_l: float = field(default = math.inf)
+    p_vp: float = field(default = math.inf)
+    p_ebita: float = field(default = math.inf)
+    p_ebit: float = field(default = math.inf)
+    p_sr: float = field(default = math.inf)
+    p_ativo: float = field(default = math.inf)
+    p_capitlgiro: float = field(default = math.inf)
+    p_ativocirculante: float = field(default = math.inf)
+    ev_ebitda: float = field(default = math.inf)
+    ev_ebit: float = field(default = math.inf)
+    lpa: float = field(default = math.inf)
+    vpa: float = field(default = math.inf)
+    peg_Ratio: float = field(default = math.inf)
+    dividaliquida_patrimonioliquido: float = field(default = math.inf)
+    dividaliquida_ebitda: float = field(default = math.inf)
+    dividaliquida_ebit: float = field(default = math.inf)
+    patrimonio_ativo: float = field(default = math.inf)
+    passivo_ativo: float = field(default = math.inf)
+    liquidezcorrente: float = field(default = math.inf)
+    margembruta: float = field(default = math.inf)
+    margemebitda: float = field(default = math.inf)
+    margemebit: float = field(default = math.inf)
+    margemliquida: float = field(default = math.inf)
+    roe: float = field(default = math.inf)
+    roa: float = field(default = math.inf)
+    roic: float = field(default = math.inf)
+    giro_ativos: float = field(default = math.inf)
+    receitas_cagr5: float = field(default = math.inf)
+    lucros_cagr5: float = field(default = math.inf)
+    
+    def setattribute(self, name: str, value: float) -> None:
+        setattr(self, name, value)
