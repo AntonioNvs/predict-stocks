@@ -5,7 +5,7 @@ from typing import List
 def reLU(x) -> np.ndarray:
   return (np.maximum(0, x))
 
-def sigmoid(x) -> np.ndarray:
+def tanh(x) -> np.ndarray:
   return np.tanh(x)
 
 class NeuralNetwork:
@@ -28,7 +28,7 @@ class NeuralNetwork:
     
     for i in range(L-1):
       self.Z.append(np.dot(self.A[i], self.W[i]) + self.b[i])
-      A = reLU(self.Z[i+1]) if i < L-1 else sigmoid(self.Z[i])
+      A = reLU(self.Z[i+1]) if i < L-1 else tanh(self.Z[i])
       self.A.append(A)
     
     return self.A[-1]
@@ -40,8 +40,8 @@ class NeuralNetwork:
 
     return cost
 
-  def sigmoid_backward(self, x):
-    return 1 - np.power(sigmoid(x), 2)
+  def tanh_backward(self, x):
+    return 1 - np.power(tanh(x), 2)
 
   def relu_backward(self, x):
     return np.greater(x, 0).astype(int)
@@ -51,7 +51,7 @@ class NeuralNetwork:
     dW = []
     db = []
 
-    dZ.append((self.A[-1] - Y) * self.sigmoid_backward(self.A[-1]))
+    dZ.append((self.A[-1] - Y) * self.tanh_backward(self.A[-1]))
     dW.append(np.dot(self.A[-2].T, dZ[-1]))
     db.append(np.sum(dZ[-1], axis=0, keepdims=True))
 
